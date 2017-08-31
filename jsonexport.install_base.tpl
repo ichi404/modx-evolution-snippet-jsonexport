@@ -24,13 +24,13 @@
 //num   : 1から始まるインデックス
 //zeron : 0から始まるインデックス
 //name  : テンプレート変数側で設定されているrelの値
-//【値が画像の場合】
+//【値が画像URLの場合】
 //変数名_width,変数名_heightとして画像サイズが変数として格納されます。
 //
 //$formatについて
 //Dittoで使用しているformatと同じ仕組みです。必要に応じでDittoのformatsディレクトリから持ってきて下さい。
 //
-//もしJSONデータの中に{selecttxt:"無効"}というデータが含まれている場合、そのデータは出力されません。
+//もしJSON内に{selecttxt:"無効"}というデータが含まれている場合、そのデータは出力されません。
 
 
 require_once($modx->config['base_path'] ."assets/snippets/jsonexport/json.php");
